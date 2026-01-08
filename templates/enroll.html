@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Enrollment</title>
+    <style>
+        body { font-family: Arial; background: #f4f4f4; }
+        .box {
+            width: 400px;
+            margin: 80px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>University Enrollment</h2>
+    <form method="POST">
+        <label>Candidate Name</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email Address</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Select Course</label><br>
+        <select name="course" required>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MBA">MBA</option>
+        </select><br><br>
+
+        <button type="submit">Pay & Enroll</button>
+    </form>
+</div>
+
+</body>
+</html>
+
